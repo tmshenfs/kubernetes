@@ -6,3 +6,7 @@ for image in ${images[@]} ; do
   docker tag tmshenfs/kubernetes:$images gcr.io/google_containers/$newimages
   docker rmi tmshenfs/kubernetes:$images
 done
+
+#(1)git add .
+#(2)git commit -m "dockerpull.sh"
+#(3)git push origin master
